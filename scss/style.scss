@@ -1,0 +1,93 @@
+* {
+    margin: 3px;
+    padding: 0;
+}
+.grid {
+    max-width: 1000px;
+    margin: 0  auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+.child_1{
+    max-width: 200px;
+    grid-row: 1;
+    grid-column: 1;
+}
+.child_2{
+    max-width: 200px;
+    grid-row: 1;
+    grid-column: 2;
+}
+.child_3{
+    max-width: 200px;
+    grid-row: 1;
+    grid-column: 3;
+}
+.child_4{
+    max-width: 200px;
+    grid-row: 1;
+    grid-column: 4;
+}
+.child_5{
+    max-width: 200px;
+    grid-row: 2;
+    grid-column: 1;
+}
+.child_6{
+    max-width: 200px;
+    grid-row: 2;
+    grid-column: 2;
+}
+.child_7{
+    max-width: 200px;
+    grid-row: 2;
+    grid-column: 3;
+}
+.child_8{
+    max-width: 200px;
+    grid-row: 2;
+    grid-column: 4;
+}
+.child_9{
+    max-width: 200px;
+    grid-row: 3;
+    grid-column: 1;
+}
+.child_10{
+    max-width: 200px;
+    grid-row: 3;
+    grid-column: 2;
+}
+.child_11{
+    max-width: 200px;
+    grid-row: 3;
+    grid-column: 3;
+}
+.child_12{
+    max-width: 200px;
+    grid-row: 3;
+    grid-column: 4;
+}
+}
+.images {
+        height:100px;
+        background: url(https://cs8.pikabu.ru/post_img/2017/11/19/10/1511111097158271951.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+}
+.desc {
+    max-height: 300px;
+    border: 1px solid black;
+    display: grid;
+    text-align: center;
+}
+.rename {
+    display: none;
+}
+.name {
+    cursor: alias;
+}
