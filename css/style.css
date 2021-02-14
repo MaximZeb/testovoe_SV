@@ -225,3 +225,20 @@
     grid-row: 12;
   }
 }
+.menu {
+  height: 30px;
+  background-color: lightpink;
+  display: grid;
+  grid-template-columns: 90% 10%;
+  grid-gap: 10px;
+}
+.menu .menu__list {
+  grid-column: 1;
+  font-size: 20px;
+  text-align: center;
+}
+.menu .menu__btn {
+  grid-column: 2;
+  text-align: center;
+  background-color: lightgreen;
+}
