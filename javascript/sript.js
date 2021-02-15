@@ -251,4 +251,15 @@ function renameBtn12 () {
 
 btn_rename12.addEventListener('click', renameBtn12);
 
-// кнопка меню табличный вид 
+// кнопка меню табличный вид
+
+// список 
+const menu = document.querySelector('.menu__list');
+const ere = document.querySelector('.menu__list1')
+
+menu.addEventListener('mouseover', function tnc () {
+	ere.style.display = 'block';
+});
+menu.addEventListener('mouseout', function tnc () {
+	ere.style.display = 'none';
+});
