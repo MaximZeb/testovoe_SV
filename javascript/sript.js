@@ -263,3 +263,76 @@ menu.addEventListener('mouseover', function tnc () {
 menu.addEventListener('mouseout', function tnc () {
 	ere.style.display = 'none';
 });
+
+const menu__btn = document.querySelector('.menu__btn');
+const grid = document.querySelector('.grid');
+	
+const child_1 = document.querySelector('.child_1');
+const child_2 = document.querySelector('.child_2');
+const child_3 = document.querySelector('.child_3');
+const child_4 = document.querySelector('.child_4');
+const child_5 = document.querySelector('.child_5');
+const child_6 = document.querySelector('.child_6');
+const child_7 = document.querySelector('.child_7');
+const child_8 = document.querySelector('.child_8');
+const child_9 = document.querySelector('.child_9');
+const child_10 = document.querySelector('.child_10');
+const child_11 = document.querySelector('.child_11');
+const child_12 = document.querySelector('.child_12');
+
+
+
+
+menu__btn.addEventListener('click', function modify () {
+	grid.classList.add('grid__btn');
+	grid.classList.remove('grid');
+
+	child_1.style.gridColumn = '1';
+	child_1.style.gridRow = '1';
+	child_1.style.width = '100%';
+
+
+	child_2.style.gridColumn = '1';
+	child_2.style.gridRow = '2';
+	child_2.style.width = '100%';
+
+	child_3.style.gridColumn = '1';
+	child_3.style.gridRow = '3';
+	child_3.style.width = '100%';
+
+	child_4.style.gridColumn = '1';
+	child_4.style.gridRow = '4';
+	child_4.style.width = '100%';
+
+	child_5.style.gridColumn = '1';
+	child_5.style.gridRow = '5';
+	child_5.style.width = '100%';
+
+	child_6.style.gridColumn = '1';
+	child_6.style.gridRow = '6';
+	child_6.style.width = '100%';
+
+	child_7.style.gridColumn = '1';
+	child_7.style.gridRow = '7';
+	child_7.style.width = '100%';
+
+	child_8.style.gridColumn = '1';
+	child_8.style.gridRow = '8';
+	child_8.style.width = '100%';
+
+	child_9.style.gridColumn = '1';
+	child_9.style.gridRow = '9';
+	child_9.style.width = '100%';
+
+	child_10.style.gridColumn = '1';
+	child_10.style.gridRow = '10';
+	child_10.style.width = '100%';
+
+	child_11.style.gridColumn = '1';
+	child_11.style.gridRow = '11';
+	child_11.style.width = '100%';
+
+	child_12.style.gridColumn = '1';
+	child_12.style.gridRow = '12';
+	child_12.style.width = '100%';
+});

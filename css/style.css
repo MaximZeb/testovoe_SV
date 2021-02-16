@@ -93,7 +93,7 @@
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
   .grid .child_1 {
-    width: 100% !important;
+    width: 100%;
     grid-column: 1;
     grid-row: 1;
   }
@@ -226,23 +226,78 @@
   }
 }
 .menu {
-  height: 30px;
+  height: auto;
   background-color: lightpink;
   display: grid;
   grid-template-columns: 90% 10%;
   grid-gap: 10px;
 }
-.menu .menu__list {
-  grid-column: 1;
-  font-size: 20px;
-  text-align: center;
+.menu .dropdown {
+  display: none;
 }
-.menu .menu__btn {
-  grid-column: 2;
-  text-align: center;
-  background-color: lightgreen;
+.menu .dropdown a {
+  display: block;
+}
+.menu .menu__list:hover .dropdown {
+  display: block;
 }
 
-.menu__list1 {
+.dropdown__link1:hover .link1 {
+  display: block;
+}
+
+.link1 {
   display: none;
+}
+.link1 a {
+  display: block;
+}
+
+.dropdown__link2:hover .link2 {
+  display: block;
+}
+
+.link2 {
+  display: none;
+}
+.link2 a {
+  display: block;
+}
+
+.dropdown__link3:hover .link3 {
+  display: block;
+}
+
+.link3 {
+  display: none;
+}
+.link3 a {
+  display: block;
+}
+
+.menu__btn {
+  background-color: lightgreen;
+  text-align: center;
+}
+
+.grid__btn {
+  height: 100%;
+  width: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.child__1__btn {
+  width: 100%;
+  grid-column: 1;
+  grid-row: 1;
+}
+.child__1__btn .images {
+  display: inline;
+  width: 50px;
+  height: 50px;
+  background: url(https://cs8.pikabu.ru/post_img/2017/11/19/10/1511111097158271951.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
